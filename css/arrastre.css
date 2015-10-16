@@ -1,0 +1,56 @@
+    body  {
+        padding: 10px;
+    }
+
+    .galeria {
+        width:                 1500px;
+        border:                1px solid #999999;
+        padding:               10px;
+        height:                20px;
+        -moz-border-radius:    17px;
+        -webkit-border-radius: 17px;
+
+    }
+
+
+    #ver1, #ver2, #ver3 {
+        width: 195px;
+    }
+
+    .galeria div {
+        width:				   130px;
+		margin:                5px;
+		border:				   1px solid #999;
+        cursor:                pointer;
+        text-align:            center;
+    }
+
+     .galeria div {
+        margin: 5px;
+        width:  130px;
+    }
+
+    #ver1 div, #ver2 div , #ver3 div  {
+        float:  left;
+        margin: 2px;
+        /*padding:           3px;*/
+
+    }
+
+	/*dibujar toda la imagen de color verde cuando este seleccionada*/
+    .claseImagen{
+        /*height:  57px;
+        width:   77px;*/
+        border: 1px solid #777777;
+    }
+
+	/* Cuando la imagen esta en el area correcta que se ponga en verde*/
+    .dropOK {
+        background-color: #99ff99 !important;
+    }
+
+
+	/* Cuando la imagen esta en el area incorrecta que se ponga en verde*/
+    .dropNotOK {
+        border: 1px solid #FF0000 !important;
+    }
